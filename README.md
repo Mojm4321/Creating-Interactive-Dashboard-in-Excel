@@ -5,6 +5,12 @@ The first step in the data interpretation process involved consolidating all rel
 
 ### Data Overview 
 Initially, the data was presented in a plain table format (as seen in Diagram 1), but this arrangement hindered the thorough examination required to identify underlying patterns. To remedy this, Headers were added (as seen in Diagram 2), to ensure clear distinguishing between each column, thereby reducing the risk of errors in large datasets. 
+
 ![Diagram 1](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%201.png)
+Diagram 1
+
+![Diagram 2](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%202.png)
+Diagram 2
+
 
 This ensures that data can be referenced and analysed correctly, maintaining the professional standard throughout the data analysis process. Further to this, an additional column was introduced to reorganise the data month by month (as seen in Diagram 3), providing a structured format alongside dates. This is crucial because it adds a professional feel to the data as most businesses frequently run on monthly cycles, and reduces the complexity associated with analysing daily activity. Additionally, colour coding was employed (as seen in Diagram 3) to enhance the visual appeal and readability for those reviewing the analysis. While the table gave basic information, the dashboard was important for analysing specific targets, including profit per month, customers per month, sales per month, and the sum of actual sales versus the sum of target sales and sales per region. This strategy guaranteed the data was comprehensible and visually engaging, facilitating a more effective and insightful analysis.
