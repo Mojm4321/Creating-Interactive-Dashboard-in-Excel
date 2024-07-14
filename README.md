@@ -3,7 +3,7 @@
 ##  Introduction
 The first step in this process involved consolidating all relevant data into a single Excel worksheet in Excel to assess the overall performance of Databel Company. The dataset initially included daily and quarterly figures for total profit, customer growth and sales from January to September. It also contained metrics such as the average sales, profit and customer completion rate. Target sales were included to set performance benchmarks, enabling a comparison of actual performance against company standards. Additionally, the dataset incorporated regional data.
 
-### Data Overview 
+## Data Overview 
 The data was presented in a plain table format (as seen in Diagram 1), which made it difficult to identify underlying patterns. To remedy this, headers were added (as seen in Diagram 2), to clearly distinguish each column, thereby reducing the risk of errors in large datasets. This allows for accurate referencing and analysis, adding a professional standard throughout the data analysis process.
 
 ![Diagram 1](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%201.png)
@@ -12,7 +12,7 @@ Diagram 1
 ![Diagram 2](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%202.png)
 Diagram 2
 
-### Data Breakdown
+## Data Breakdown
 An additional column was introduced to reorganise the data month by month, (as seen in Diagram 3), providing a structured format alongside the ‘Date’ column. This is crucial because it maintains the professional feel to the data as most businesses frequently run on monthly cycles, and reduces the complexity associated with analysing daily activity. Additionally, colour coding was also employed (as seen in Diagram 3) to enhance the visual appeal and readability for those reviewing the analysis. 
 
 ![Diagram 3](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%203.png)
@@ -53,7 +53,7 @@ Diagram 10 demonstrates the calculation of sales and non-sales averages using th
 ![Diagram 10](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2010.png)
 Diagram 10
 
-### Dashboard Construction
+## Dashboard Construction
 Now that all these calculations have been completed for the key metrics, we can move on to building the dashboard. This key metrics selected are highlighted in Diagram 11.
 
 ![Diagram 11](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2011.png)
@@ -79,7 +79,7 @@ Diagram 14
 ![Diagram 15](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2015.png)
 Diagram 15
 
-### Additonal Analysis
+## Additonal Analysis
 The next point of analysis involves creating pivot tables centered on completion rates, as shwon in Diagram 16. These completion rates serve as benchmark for evaluating sales productivity, profitability and customer management. By analysing these rates, Databel can identify its operations strengths and weaknesses, leading to more informed decision-making and targeted improvements to enhance its overall performance. 
 
 To add the completion rate diagram to the dashboard, start by selecting the range containing the sales average and non sales average, as highlighted in Diagram 16. Then, go to the insert tab and choose the doughnut chart option. Once the chart is created, remove the title and the legend that displays 'sales average' and 'non sales average' at the bottom of the doughnut.Next, cut and paste the chart onto the dashboard worksheet. As shown in Digram 17, position the chart wihtin the designated shape. Use the "Format Data Series" option to adjust the size of the doughnut's inner part, which will visually represent the sales average figure.
@@ -117,13 +117,24 @@ Diagram 23
 The final pivot table focused on the sum of sales by region. This was done by selecting 'Region' and 'Sales' from the field list, resulting in the table shown on the left in Diagram 24. Next, naviage to the insert tab, select, 'Recommended Charts' and choose the 'Clustered Bar' option to generate the chart displayed on the right in Diagram 24. To integrate this chart into the dashboard, removed the chart title and hide all field button. Copy and paste the chart into the dashboard worksheet and change the bar colours to match the green colour theme, as shown in Diagram 25. Images were added to the top right corner of the charts to enhance the visual appeal of the dashboard.
 
 ![Diagram 24](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2024.png)
+
 Diagram 24
 
 ![Diagram 25](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2025.png)
+
 Diagram 25
 
-### Enhancing Interactivity
-Slicers were added to make the dashboard more interactive, and to show which filters have been applied to the data. The slicers allow for multi select filerting, which allows for the data to analysed from various perspectives. The design looks fuller and fitted and synchorises the slicers with the rest of the dashboard.
+## Enhancing Interactivity
+Slicers were added to make the dashboard more interactive, and to show which filters have been applied to the data. The slicers allow for multi select filerting, which allows for the data to analysed from various perspectives. The design looks fuller and fitted and synchorises the slicers with the rest of the dashboard. This can be seen in Diagram 26 and 27.
+
+![Diagram 26](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2026.png)
+
+Diagram 26
+
+## Dashboard
+![Diagram 27](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2027.png)
+
+Diagram 27 
 
 ## Conclusion
 The creative direction of datana analysis is critical for presenting information clearly and effectively. A well-designed dashboard minimises the risk of misinterpretation by utilising visual elements such as charts, graphs, pictures and colour-coding to highlight key insights and trends. This approach was prioritised to ensure Databel can thoroughly understand the data, as false interpretations could harm the sustainability of their business model through incorrect resource allocation or misguided financial planning. Data accuracy remains paramount; however, incorporating interactive features such as slicers allows the company to explore the data on specific areas, further enhancing their ability to make informed decisions.
