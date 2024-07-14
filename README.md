@@ -26,9 +26,7 @@ Diagram 4
 ![Diagram 5](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%205.png)
 Diagram 5
 
-The next step involved creating a pivot table directly linked to the original dataset on a separate worksheet, as seen in Diagram 6. This worksheet is dedicated to summarising the data.
-
-This maintains data integrity and organisation within the workbook as datasets are easier to interpret when segregated into distinct sections. This is because the original dataset remains unchanged because analysis is done primarily with the pivot table going forward.  
+The next step involved creating a pivot table directly linked to the original dataset on a separate worksheet, as seen in Diagram 6. This worksheet is dedicated to summarising the data. This maintains data integrity and organisation within the workbook as datasets are easier to interpret when segregated into distinct sections. This is because the original dataset remains unchanged because analysis is done primarily with the pivot table going forward.  
 
  Furthermore, this setup automatically refreshes the pivot table with any changes made in the original dataset, guaranteeing that the conclusions drawn from the data are reliable and up to date without requiring manual adjustments every time new information is fed into the original dataset. 
 
@@ -55,6 +53,7 @@ Diagram 10 demonstrates the calculation of sales and non-sales averages using th
 ![Diagram 10](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2010.png)
 Diagram 10
 
+### Dashboard Construction
 Now that all these calculations have been completed for the key metrics, we can move on to building the dashboard. This key metrics selected are highlighted in Diagram 11.
 
 ![Diagram 11](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2011.png)
@@ -80,13 +79,10 @@ Diagram 14
 ![Diagram 15](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2015.png)
 Diagram 15
 
-The next point of analysis involves creating pivot tables centered on completion rates, as shwon in Diagram 16. These completion rates serve as benchmark for evaluating sales productivity, profitability and customer management. 
+### Additonal Analysis
+The next point of analysis involves creating pivot tables centered on completion rates, as shwon in Diagram 16. These completion rates serve as benchmark for evaluating sales productivity, profitability and customer management. By analysing these rates, Databel can identify its operations strengths and weaknesses, leading to more informed decision-making and targeted improvements to enhance its overall performance. 
 
-By analysing these rates, Databel can identify its operations strengths and weaknesses, leading to more informed decision-making and targeted improvements to enhance its overall performance. 
-
-To add the completion rate diagram to the dashboard, start by selecting the range containing the sales average and non sales average, as highlighted in Diagram 16. Then, go to the insert tab and choose the doughnut chart option. Once the chart is created, remove the title and the legend that displays 'sales average' and 'non sales average' at the bottom of the doughnut.
-
-Next, cut and paste the chart onto the dashboard worksheet. As shown in Digram 17, position the chart wihtin the designated shape. Use the "Format Data Series" option to adjust the size of the doughnut's inner part, which will visually represent the sales average figure.
+To add the completion rate diagram to the dashboard, start by selecting the range containing the sales average and non sales average, as highlighted in Diagram 16. Then, go to the insert tab and choose the doughnut chart option. Once the chart is created, remove the title and the legend that displays 'sales average' and 'non sales average' at the bottom of the doughnut.Next, cut and paste the chart onto the dashboard worksheet. As shown in Digram 17, position the chart wihtin the designated shape. Use the "Format Data Series" option to adjust the size of the doughnut's inner part, which will visually represent the sales average figure.
 
 ![Diagram 16](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2016.png)
 Diagram 16
@@ -99,11 +95,7 @@ Diagram 18 illustrates consistely high averages across all metrics. The sales av
 ![Diagram 18](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2018.png)
 Diagram 18
 
-First, duplicate the pivot table in the Analysis worksheet and adjust the field list options to display 'Target Sales' and 'Actual Sales', as shown in Diagram 19.
-
-Next, select the insert tab, click on the Recommended Charts section, choose the Column option and select the Stacked Column chart type. Customise the chart by hiding all field buttons, moving the legend to the bottom, as seen in Diagram 20.
-
-Once Diagram 20 has been created, duplicate it onto the Dashboard worksheet. Change the color theme to match the greeen background, and set the data labels to the 'Inside Base' option. These steps produce the chart seen in Diagram 21, which is well integrated into the dashboard with a consistent color theme and clear data labels.
+First, duplicate the pivot table in the Analysis worksheet and adjust the field list options to display 'Target Sales' and 'Actual Sales', as shown in Diagram 19. Next, select the insert tab, click on the Recommended Charts section, choose the Column option and select the Stacked Column chart type. Customise the chart by hiding all field buttons, moving the legend to the bottom, as seen in Diagram 20. Once Diagram 20 has been created, duplicate it onto the Dashboard worksheet. Change the color theme to match the greeen background, and set the data labels to the 'Inside Base' option. These steps produce the chart seen in Diagram 21, which is well integrated into the dashboard with a consistent color theme and clear data labels.
 
 ![Diagram 19](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2019.png)
 Diagram 19
@@ -114,11 +106,7 @@ Diagram 20
 ![Diagram 21](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2021.png)
 Diagram 21
 
-Again, we begin by creating a pivot table in the Analysis worksheet to display the 'Sum of Customers' for each month, as shown in Diagram 22.
-
-Then, navigate to the insert tab and click on the recommended charts sections and select the line chart option, specifically the 'Stacked Line' chart. Customise the chart by removing the title and hiding all field buttons.
-
-After creating the chart in Diagram 22, duplicate it onto the Dashboard worksheet. Adjust the chart's colour scheme to blend with the background and change the chart line to ensure clear data presentation. This process results in Diagram 23, which is visually consistent with the dashboard. 
+Again, we begin by creating a pivot table in the Analysis worksheet to display the 'Sum of Customers' for each month, as shown in Diagram 22. Then, navigate to the insert tab and click on the recommended charts sections and select the line chart option, specifically the 'Stacked Line' chart. Customise the chart by removing the title and hiding all field buttons. After creating the chart in Diagram 22, duplicate it onto the Dashboard worksheet. Adjust the chart's colour scheme to blend with the background and change the chart line to ensure clear data presentation. This process results in Diagram 23, which is visually consistent with the dashboard. 
 
 ![Diagram 22](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2022.png)
 Diagram 22
@@ -126,13 +114,7 @@ Diagram 22
 ![Diagram 23](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2023.png)
 Diagram 23
 
-The final pivot table focused on the sum of sales by region. This was done by selecting 'Region' and 'Sales' from the field list, resulting in the table shown on the left in Diagram 24.
-
-Next, naviage to the insert tab, select, 'Recommended Charts' and choose the 'Clustered Bar' option to generate the chart displayed on the right in Diagram 24.
-
-To integrate this chart into the dashboard, removed the chart title and hide all field button. Copy and paste the chart into the dashboard worksheet and change the bar colours to match the green colour theme, as shown in Diagram 25. 
-
-Images were added to the top right corner of the charts to enhance the visual appeal of the dashboard.
+The final pivot table focused on the sum of sales by region. This was done by selecting 'Region' and 'Sales' from the field list, resulting in the table shown on the left in Diagram 24. Next, naviage to the insert tab, select, 'Recommended Charts' and choose the 'Clustered Bar' option to generate the chart displayed on the right in Diagram 24. To integrate this chart into the dashboard, removed the chart title and hide all field button. Copy and paste the chart into the dashboard worksheet and change the bar colours to match the green colour theme, as shown in Diagram 25. Images were added to the top right corner of the charts to enhance the visual appeal of the dashboard.
 
 ![Diagram 24](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2024.png)
 Diagram 24
@@ -140,4 +122,8 @@ Diagram 24
 ![Diagram 25](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2025.png)
 Diagram 25
 
+### Enhancing Interactivity
 Slicers were added to make the dashboard more interactive, and to show which filters have been applied to the data. The slicers allow for multi select filerting, which allows for the data to analysed from various perspectives. The design looks fuller and fitted and synchorises the slicers with the rest of the dashboard.
+
+## Conclusion
+The creative direction of datana analysis is critical for presenting information clearly and effectively. A well-designed dashboard minimises the risk of misinterpretation by utilising visual elements such as charts, graphs, pictures and colour-coding to highlight key insights and trends. This approach was prioritised to ensure Databel can thoroughly understand the data, as false interpretations could harm the sustainability of their business model through incorrect resource allocation or misguided financial planning. Data accuracy remains paramount; however, incorporating interactive features such as slicers allows the company to explore the data on specific areas, further enhancing their ability to make informed decisions.
