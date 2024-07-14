@@ -21,9 +21,11 @@ Diagram 3
 Now that the table's visual presentation has been improved, naming it is essential (as shown in Diagram 4). Named tables faciliate easier data location, especially before developing the analysis and dashboard worksheets. Referring to the dataset name, rather than the cell ranges, reduces the chance of errors as the data is easier to manage. Diagram 5 illustrates how the Month column was created, including the formula used.
 
 ![Diagram 4](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%204.png)
+
 Diagram 4
 
 ![Diagram 5](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%205.png)
+
 Diagram 5
 
 The next step involved creating a pivot table directly linked to the original dataset on a separate worksheet, as seen in Diagram 6. This worksheet is dedicated to summarising the data. This maintains data integrity and organisation within the workbook as datasets are easier to interpret when segregated into distinct sections. This is because the original dataset remains unchanged because analysis is done primarily with the pivot table going forward.  
@@ -46,6 +48,7 @@ Diagram 8
 Diagram 9 shows all metrics have been copied, pasted and amended accordingly. The result of this process is displayed here, reflecting the updated metrics.
 
 ![Diagram 9](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%20%209.png)
+
 Diagram 9
 
 Diagram 10 demonstrates the calculation of sales and non-sales averages using the GETPIVOTDATA function in Excel. This function allows for precise extracton of specific data from the pivot tbale, which ensures accuracy in referencing data from the pivot tbale. By subtracting the original figures from 1, the non sales average is calculated, as the sales average is already provided.
@@ -74,6 +77,7 @@ Diagram 14 shows the method of entering text and numerical data into these shape
 Once this setup is complete the same textbox is duplicated and formulas are applied to directly reference data from the Analysis worksheet, as seen in Diagram 14, '=Analysis!A4'. This approach avoids navigating between worksheets repeatedly, minmising the risk of errors. Diagram 15 shows the completed version on this process.
 
 ![Diagram 14](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2014.png)
+
 Diagram 14
 
 ![Diagram 15](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2015.png)
@@ -98,12 +102,14 @@ Diagram 18
 First, duplicate the pivot table in the Analysis worksheet and adjust the field list options to display 'Target Sales' and 'Actual Sales', as shown in Diagram 19. Next, select the insert tab, click on the Recommended Charts section, choose the Column option and select the Stacked Column chart type. Customise the chart by hiding all field buttons, moving the legend to the bottom, as seen in Diagram 20. Once Diagram 20 has been created, duplicate it onto the Dashboard worksheet. Change the color theme to match the greeen background, and set the data labels to the 'Inside Base' option. These steps produce the chart seen in Diagram 21, which is well integrated into the dashboard with a consistent color theme and clear data labels.
 
 ![Diagram 19](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2019.png)
+
 Diagram 19
 
 ![Diagram 20](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2020.png)
 Diagram 20
 
 ![Diagram 21](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2021.png)
+
 Diagram 21
 
 Again, we begin by creating a pivot table in the Analysis worksheet to display the 'Sum of Customers' for each month, as shown in Diagram 22. Then, navigate to the insert tab and click on the recommended charts sections and select the line chart option, specifically the 'Stacked Line' chart. Customise the chart by removing the title and hiding all field buttons. After creating the chart in Diagram 22, duplicate it onto the Dashboard worksheet. Adjust the chart's colour scheme to blend with the background and change the chart line to ensure clear data presentation. This process results in Diagram 23, which is visually consistent with the dashboard. 
@@ -112,6 +118,7 @@ Again, we begin by creating a pivot table in the Analysis worksheet to display t
 Diagram 22
 
 ![Diagram 23](https://github.com/Mojm4321/Creating-Interactive-Dashboard-in-Excel/blob/main/screenshots/Diagram%2023.png)
+
 Diagram 23
 
 The final pivot table focused on the sum of sales by region. This was done by selecting 'Region' and 'Sales' from the field list, resulting in the table shown on the left in Diagram 24. Next, naviage to the insert tab, select, 'Recommended Charts' and choose the 'Clustered Bar' option to generate the chart displayed on the right in Diagram 24. To integrate this chart into the dashboard, removed the chart title and hide all field button. Copy and paste the chart into the dashboard worksheet and change the bar colours to match the green colour theme, as shown in Diagram 25. Images were added to the top right corner of the charts to enhance the visual appeal of the dashboard.
