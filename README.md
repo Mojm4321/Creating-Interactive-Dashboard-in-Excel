@@ -1,4 +1,4 @@
-# Creating-Interactive-Dashboard-in-Excel
+# Creating An Interactive Dashboard in Excel By Jolly Madamedon
 
 ##  Introduction
 The first step in this process involved consolidating all relevant data into a single Excel worksheet in Excel to assess the overall performance of Databel Company. The dataset initially included daily and quarterly figures for total profit, customer growth and sales from January to September. It also contained metrics such as the average sales, profit and customer completion rate. Target sales were included to set performance benchmarks, enabling a comparison of actual performance against company standards. Additionally, the dataset incorporated regional data.
